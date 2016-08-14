@@ -63,3 +63,7 @@ cd ..
 ```
 
 More configurations, you should see on [funs](https://github.com/MephistoMMM/funs).
+
+## License
+
+MIT
