@@ -1,0 +1,16 @@
+funs:
+  image: mpsss/funs
+  volumes:
+    # config files
+    - ./configs/nginx_conf.d:/etc/nginx/conf.d
+    - ./configs/uwsgi_conf.d:/etc/uwsgi/conf.d
+    - ./configs/supervisord_conf.d:/etc/supervisor/conf.d
+    # project
+    - .:/opt/project
+    # logs
+    - ./logs/project:/var/log/project
+    - ./logs/nginx:/var/log/nginx
+    - ./logs/supervisor:/var/log/supervisor
+  ports:
+    - "2333:80"
+
