@@ -30,11 +30,10 @@ Add **webhook** on Tower.im, full it with the link of **tower-funs-slack**
 
 ## Deploy
 
-Clone this repository to your vps, and init **funs**:
+Clone this repository to your vps:
 
 ```
 git clone https://github.com/MephistoMMM/tower-funs-slack.git
-./init.sh
 ```
 
 Create virtual env and install dependences:
